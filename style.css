@@ -1,21 +1,3 @@
 body {
 background-color: #FEAFC3;
 }
-*/Навигация/
-.main-header-logo {
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-background: #2D3440;
-}
-
-.navigation-header {
-    padding: 32px;
-}
-.catalog,
-.delivery,
-.about us {
-    padding: 32px;  
-}

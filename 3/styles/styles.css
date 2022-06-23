@@ -1,0 +1,323 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/inter-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/inter-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/inter-900.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FEAFC3;
+    color: #2D3440;
+}
+
+.button {
+    color: #2D3440;
+    background-color: #FCFCFC;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+}
+
+.form-button {
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #FCFCFC;
+    background-color: #FF2F64;
+    border: none;
+    font-size: 16px;
+}
+
+.button-accepted {
+    background: rgba(252, 252, 252, 0.3);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+}
+
+.navigation-link {
+    color: #2D3440;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navigation-link-phone {
+    color: #2D3440;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 20px; 
+    text-align: center; 
+}
+
+.social-link {
+    color: #2D3440;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.slider-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.slider-discription {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.gifts-presents {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.gift-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.gift-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.catalog-popular-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.catalog-item-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.catalog-description {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.benefits-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.benefits-list {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.update-news {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.update-link {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+.subscribe-description {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.delivery-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.delivery-description {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.delivery-conformation {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.delivery-date {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.delivery-phone {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.delivery-address {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.contact-address-text {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.contact-address-text {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.schedule {
+    font-weight: 400;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.contact-address {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contact-phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cooperation-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+
+}
+
+.cooperation-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+.cooperation-link-selected {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+.copyright-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.copyright-link {
+    color: #2D3440;
+}
+
+.breadcrumbs-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+    text-decoration: none;
+}
+
+
+.filter-name{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.select-variants {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.range {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fat-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.filler-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.range {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.filler-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pagination-link {
+    font-weight: 400;
+    line-height: 20px;
+    color: #2D3440;
+    text-decoration: none;
+}

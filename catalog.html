@@ -36,7 +36,8 @@
           </ul>
         </nav>
       </header>
-      <main class="main-inner">
+      <main class="main-inner main-container">
+        <div class="page-container">
         <header class="inner-header">
             <h1 class="inner-header-title"><span class="visually-hidden">Каталог</span></h1>
             <ul class="breadcrumbs">
@@ -48,15 +49,17 @@
                 </li>
             </ul>
         </header>
-        <section class="filter">
-            <form class="catalog-filter" method="get" action="https://echo.htmlacademy.ru/">
-            <h2 class="filter-name">Сливочное мороженое</h2>
+          <h2 class="filter-name">Сливочное мороженое</h2>
             <p>Сортировка:</p>
+            <section class="filter">
+              <div class="filter-option">
+            <form class="catalog-filter" method="get" action="https://echo.htmlacademy.ru/">
             <select class="select-variants">
                 <option value="popular">По популярности</option>
                 <option value="popular">Самые дешевые</option>
                 <option value="popular">Самые дорогие</option>
             </select>
+            </div>
             <div class="range">
                 <label class="control">Цена: 100 ₽ – 500 ₽:
                     /*тут будет ползунок с ценой*/
@@ -229,47 +232,50 @@
                 </li>
             </ul>
         </section>
+      </div>
       </main>
-      <footer class="page-footer">
-        <section class="social">
-        <ul class="social-list">
-          <li class="social-item">
-            <a class="social-link" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
-            </a>
-          </li>
-          <li class="social-item">
-            <a class="social-link" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Вконтакте</span>
-            </a>
-          </li>
-          <li class="social-item">
-            <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Ютуб</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section class="cooperation">
-        <ul class="cooperation-list">
-          <li class="cooperation-item">
-            <a class="cooperation-link-selected" href="#">Для производителей</a>
-          </li>
-          <li class="cooperation-item">
-            <a class="cooperation-link" href="#">О производстве</a>
-          </li>
-          <li class="cooperation-item">
-            <a class="cooperation-link" href="#">Наши документы</a>
-          </li>
-          <li class="cooperation-item">
-            <a class="cooperation-link" href="#">Экологические стандарты</a>
-          </li>
-        </ul>
-      </section>
-      <section class="copyrights">
-        <img class="copyright-logo" src="image\logo_htmlacademy.svg" width="93" height="27" alt="Логотип Академии">
-        <p class="copyright-text">Сделано в <a class="copyright-link" href="https://htmlacademy.ru/">.html academy</a> © 2021</p>
-      </section>
+        <footer class="page-footer">
+        <div class="page-footer-container">
+          <section class="social">
+            <ul class="social-list">
+              <li class="social-item">
+                <a class="social-link" href="https://t.me/htmlacademy">
+                  <span class="visually-hidden">Телеграм</span>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href="https://vk.com/htmlacademy">
+                  <span class="visually-hidden">Вконтакте</span>
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
+                  <span class="visually-hidden">Ютуб</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="cooperation">
+            <ul class="cooperation-list">
+              <li class="cooperation-item">
+                <a class="cooperation-link-selected" href="#">Для производителей</a>
+              </li>
+              <li class="cooperation-item">
+                <a class="cooperation-link" href="#">О производстве</a>
+              </li>
+              <li class="cooperation-item">
+                <a class="cooperation-link" href="#">Наши документы</a>
+              </li>
+              <li class="cooperation-item">
+                <a class="cooperation-link" href="#">Экологические стандарты</a>
+              </li>
+            </ul>
+          </section>
+          <section class="copyrights">
+            <img class="copyright-logo" src="image\logo_htmlacademy.svg" width="93" height="27" alt="Логотип Академии">
+            <p class="copyright-text">Сделано в <a class="copyright-link" href="https://htmlacademy.ru/">.html academy</a> © 2021</p>
+          </section>
+        </div>
       </footer>
 </body>
 </html>

@@ -22,12 +22,24 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 24px;
     background-color: #FEAFC3;
     color: #2D3440;
+}
+
+.main-container {
+    flex-grow: 1;
 }
 
 .button {
@@ -58,6 +70,23 @@ body {
     border: none;
 }
 
+.navigation {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation-logo {
+    width: 137px;
+    margin-right: 16px;
+}
+
+.navigation-list {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
 .navigation-link {
     color: #2D3440;
     text-decoration: none;
@@ -73,6 +102,28 @@ body {
     line-height: 20px; 
     text-align: center; 
 }
+
+.navigation-user {
+    max-width: 430px;
+    margin-left: auto;
+}
+
+.page-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.slider-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-item {
+    margin: auto;
+}
+
 
 .social-link {
     color: #2D3440;
@@ -97,6 +148,32 @@ body {
     font-weight: 900;
     font-size: 32px;
     line-height: 46px;
+    text-align: center;
+}
+
+.index-colums {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gifts {
+    background-color: #FF7799;
+    width: 570px;
+    height: 268px;
+}
+
+.rasberry {
+    background-image: url("../image/rasberry.jpg");
+    background-repeat: no-repeat;
+    background-size: 219px 268px;
+    background-position: right; 
+}
+
+.marshmellow {
+    background-image: url("../image/marshmellow.jpg");
+    background-repeat: no-repeat;
+    background-size: 219px 268px;
+    background-position: right;
 }
 
 .gift-title {
@@ -117,6 +194,11 @@ body {
     line-height: 46px;
 }
 
+.catalog-popular-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .catalog-item-title {
     font-weight: 700;
     font-size: 20px;
@@ -135,16 +217,40 @@ body {
     line-height: 24px;
 }
 
+.benefits {
+    background-image: url("../image/ceo.jpg");
+    height: 480px;
+}
+
+.benefits-list{
+    display: flex;
+    justify-content: center;
+}
+
 .benefits-title {
     font-weight: 900;
     font-size: 32px;
     line-height: 46px;
+    text-align: center
 }
 
 .benefits-list {
     font-weight: 400;
     line-height: 22px;
     color: #565C66;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update {
+    background-image: url("../image/news.jpg");
+    background-repeat: no-repeat;
+    background-size: 570px 224px;
+    width: 570px;
+    height: 224px;
 }
 
 .update-news {
@@ -161,16 +267,36 @@ body {
     text-decoration: none;
 }
 
+.subscribe {
+    background-image: url("../image/subscrube.jpg");
+    width: 570px;
+    height: 224px;
+}
+
 .subscribe-description {
     font-weight: 400;
     line-height: 22px;
     color: #565C66;
 }
 
+.delivery {
+    display: flex;
+    background-image:url("../image/delivery.jpg");
+    height: 534px;
+}
+
+.delivery-container{
+    margin: auto;
+}
+
 .delivery-title {
     font-weight: 900;
     font-size: 32px;
     line-height: 46px;
+}
+
+.delivery-form {
+    margin: auto;
 }
 
 .delivery-description {
@@ -199,6 +325,13 @@ body {
     font-weight: 700;
     line-height: 20px;
 }
+
+.contacts {
+    background-image: url("../image/feedback.jpg");
+    background-repeat: no-repeat;
+    height: 492px;
+}
+
 
 .contact-address-text {
     font-weight: 400;
@@ -230,12 +363,18 @@ body {
     line-height: 24px;
 }
 
+.page-footer-container {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
 .cooperation-item {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #2D3440;
-
 }
 
 .cooperation-link {
@@ -272,8 +411,7 @@ body {
     text-decoration: none;
 }
 
-
-.filter-name{
+.filter-name {
     font-weight: 900;
     font-size: 32px;
     line-height: 46px;
@@ -320,4 +458,16 @@ body {
     line-height: 20px;
     color: #2D3440;
     text-decoration: none;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0; 
 }

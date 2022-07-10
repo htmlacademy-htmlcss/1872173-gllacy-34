@@ -347,9 +347,9 @@ body {
     border-radius: 30px;
 }
 
-.popover {
+/*.popover {
     display: none;
-}
+}*/
 
 .popover-catalog {
     width: 106px;
@@ -434,6 +434,17 @@ body {
     width: 324px;
 }
 
+.popover-cart {
+    position: absolute;
+    padding-top: 48px;
+    padding-left: 48px;
+    background: #FCFCFC;
+    border-radius: 4px;
+    top: 5px;
+    left: 0;
+    z-index: 1;
+    width: 441px;
+}
 
 
 /*Слайдеры*/

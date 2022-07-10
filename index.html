@@ -14,6 +14,25 @@
     <ul class="navigation-list">
       <li class="navigation-item">
         <a class="navigation-link" href="catalog.html">Каталог</a>
+        <div class="popover popover-catalog">
+          <ul class="popover-catalog-list">
+            <li class="popover-catalog-item">
+              <a class="popover-catalog-link new" href="#">Новинки</a>
+            </li>
+            <li class="popover-catalog-item">
+              <a class="popover-catalog-link " href="#">Сливочное</a>
+            </li>
+            <li class="popover-catalog-item">
+              <a class="popover-catalog-link" href="#">Щербеты</a>
+            </li>
+            <li class="popover-catalog-item">
+              <a class="popover-catalog-link" href="#">Фруктовый лед</a>
+            </li>
+            <li class="popover-catalog-item">
+              <a class="popover-catalog-link" href="#">Мелорин</a>
+            </li>
+          </ul>
+        </div>
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="delivery-payment.html">Доставка и оплата</a>
@@ -31,7 +50,13 @@
           <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66 7.33a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.45a.67.67 0 1 1-.94.94l-2.45-2.45Z" fill="#2D3440"/>
           </svg>
-          <span class="visually-hidden">Поиск</span></a>
+          <span class="visually-hidden">Поиск</span>
+          <div class="popover popover-search">
+            <form class="popover-form">
+              <input class="field popover-field" type="text" placeholder="Поиск по сайту">
+            </form>
+          </div>
+        </a>
       </li>
       <li class="navigation-item">
         <a class="navigation-link navigation-link-login" href="#">
@@ -48,6 +73,22 @@
           </svg>
          2 товара
           <span class="visually-hidden">Корзина</span>
+          <div class="popover popover-cart">
+              <h3>Корзина</h3>
+              <ul class="popover-cart-list">
+                <li class="popover-cart-item">
+                  <img src="image/card/rasberry_small.png" width="46" height="46" alt="Мороженное со вкусом малины.">
+                  <p>Малина</p>
+                  <p>1 кг х 310 ₽</p>
+                  <p>310 ₽</p>
+                  <button class="popover-cart-item">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.8 4.14a.67.67 0 1 0-.94-.94L8 7.06 4.14 3.2a.67.67 0 1 0-.94.94L7.06 8 3.2 11.86a.67.67 0 1 0 .94.94L8 8.94l3.86 3.86a.67.67 0 1 0 .94-.94L8.94 8l3.86-3.86Z" fill="#2D3440"/>
+                  </svg>
+                </button>
+                </li>
+              </ul>
+          </div>
         </a>
       </li>
     </ul>
@@ -257,8 +298,8 @@
       <div class="subscribe-container">
       <p class="subscribe-description">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
       <form class="subscribe-form" method="post" action="https://echo.htmlacademy.ru/">
-        <input class="email-field" type="email" placeholder="email@example.com">
-        <button class="form-button button-subscribe" type="submit">Подписаться</button>
+        <input class="field" type="email" placeholder="email@example.com">
+        <button class="form-button button-subscribe" type="submit">Отправить</button>
       </div>
       </form>
     </article> 
@@ -272,7 +313,7 @@
       <p class="delivery-conformation">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.</p>
         <form class="delivery-form" method="post" action="https://echo.htmlacademy.ru/"> 
           <p class="field-group delivery-date">
-            <label for="date">
+            <label class="form-label" for="date">
               Дата
               <button class="info">
                 <span class="visually-hidden">Посмотреть дополнительную информацию</span>
@@ -281,11 +322,11 @@
             <input class="field" type="text" name="date" placeholder="01.04.2020" id="date">
           </p>
           <p class="field-group delivery-phone">
-            <label for="phone">Телефон</label>
+            <label class="form-label" for="phone">Телефон</label>
             <input class="field" type="text" name="phone" placeholder="+7 800 999-00-00" id="phone">
           </p>
           <p class="field-group delivery-address">
-            <label for="address">
+            <label class="form-label" for="address">
               Адрес
               <button class="info">
                 <span class="visually-hidden">Посмотреть дополнительную информацию</span>

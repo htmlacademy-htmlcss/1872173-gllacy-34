@@ -10,7 +10,7 @@
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo inner-logo-link">
-          <img class="page-header-logo inner-logo" src="image\logo.svg" width=137px height=56px alt="Логотип фирмы Глейси">
+          <img class="page-header-logo inner-logo" src="image/logo.svg" width="137" height="56" alt="Логотип фирмы Глейси">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -50,12 +50,12 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66 7.33a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.45a.67.67 0 1 1-.94.94l-2.45-2.45Z" fill="#2D3440"/>
               </svg>
               <span class="visually-hidden">Поиск</span>
+            </a>
               <div class="popover popover-search">
                 <form class="popover-form">
                   <input class="field popover-field" type="text" placeholder="Поиск по сайту">
                 </form>
               </div>
-            </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link navigation-link-login" href="#">
@@ -101,17 +101,17 @@
                 <option value="expensive">самые дорогие</option>
               </select>
           </fieldset>
-        <fieldset class="catalog-filter-group price-scale">
-          <legend class="catalog-filter-title">
+        <div class="catalog-filter-group price-scale">
+          <div class="catalog-filter-title">
            <div class="range-wrapper-inputs">
                 Цена:<label class="catalog-filter-label">
                   <input class="range-input" type="number" value="100" name="min-price">₽
                 </label>
                 <label class="catalog-filter-label">
-                  - <input class="range-input" type="number" value="500" name="max-price" style="width: 37px">₽
+                  - <input class="range-input" type="number" value="500" name="max-price" style="width: 30px">₽
                 </label>
               </div>
-            </legend>
+          </div>
             <div class="range">
               <div class="range-scale">
                  <div class="range-bar" style="left: 40px; width: 56px">
@@ -124,7 +124,7 @@
                  </div>
                 </div>
             </div>
-        </fieldset>
+        </div>
           <fieldset class="catalog-filter-group fat-scale">
             <legend class="catalog-filter-title">Жирность:</legend>
                 <ul class="fat-list">
@@ -235,7 +235,7 @@
             <article class="catalog-card-content">
               <img class="catalog-item-image" src="image/card/blueberry.png" width="180" height="180" alt="Черника.">
               <h3 class="catalog-item-title">Черника</h3>
-              <p class="catalog-description">Крем-брюле с черничным джемом</p>
+              <p class="catalog-description">Крем-брюле<br> с черничным джемом</p>
               <div class="catalog-footer">
                 <b class="price">310 ₽/кг</b>
                 <a class="add-to-cart-link" href="#"><span class="visually-hidden">В корзину</span>
@@ -249,7 +249,7 @@
             <article class="catalog-card-content">
               <img class="catalog-item-image" src="image/card/buble-gum.png" width="180" height="180" alt="Бабл-гам.">
               <h3 class="catalog-item-title">Бабл-гам</h3>
-              <p class="catalog-description">Ванильный пломбир со сладкой посыпкой</p>
+              <p class="catalog-description">Ванильный пломбир<br> со сладкой посыпкой</p>
               <div class="catalog-footer">
                 <b class="price">310 ₽/кг</b>
                 <a class="add-to-cart-link" href="#"><span class="visually-hidden">В корзину</span>
@@ -277,7 +277,7 @@
         <article class="catalog-card-content">
           <img class="catalog-item-image" src="image/card/banana.png" width="180" height="180" alt="Банан.">
           <h3 class="catalog-item-title">Банан</h3>
-          <p class="catalog-description">Сливочный пломбир с банановым вкусом</p>
+          <p class="catalog-description">Сливочный пломбир<br> с банановым вкусом</p>
           <div class="catalog-footer">
             <b class="price">310 ₽/кг</b>
             <a class="add-to-cart-link" href="#"><span class="visually-hidden">В корзину</span>
@@ -305,7 +305,7 @@
        <article class="catalog-card-content">
         <img class="catalog-item-image" src="image/card/strawberry.png" width="180" height="180" alt="Клубничка.">
           <h3 class="catalog-item-title">Клубничка</h3>
-          <p class="catalog-description">Сливочный пломбир с клубничным вкусом</p>
+          <p class="catalog-description">Сливочный пломбир<br> с клубничным вкусом</p>
           <div class="catalog-footer">
             <b class="price">310 ₽/кг</b>
             <a class="add-to-cart-link" href="#"><span class="visually-hidden">В корзину</span>
@@ -333,7 +333,7 @@
         <article class="catalog-card-content">
           <img class="catalog-item-image" src="image/card/menthol.png" width="180" height="180" alt="Ментол.">
           <h3 class="catalog-item-title">Ментол</h3>
-          <p class="catalog-description">Сливочный пломбир с ментоловым сиропом</p>
+          <p class="catalog-description">Сливочный пломбир<br> с ментоловым сиропом</p>
           <div class="catalog-footer">
             <b class="price">310 ₽/кг</b>
             <a class="add-to-cart-link" href="#"><span class="visually-hidden">В корзину</span>
@@ -361,7 +361,7 @@
           <article class="catalog-card-content">
             <img class="catalog-item-image" src="image/card/creme_brulee.png" width="180" height="180" alt="Крем-брюле.">
             <h3 class="catalog-item-title">Крем-брюле</h3>
-            <p class="catalog-description">Классическое крем-брюле</p>
+            <p class="catalog-description">Классическое<br> крем-брюле</p>
             <div class="catalog-footer">
               <b class="price">310 ₽/кг</b>
               <a class="add-to-cart-link" href="#"><span class="visually-hidden">В корзину</span>
@@ -444,7 +444,7 @@
                   </li>
                 </ul>
               </section>
-          <section class="cooperation ">
+          <section class="cooperation cooperation-catalog">
             <ul class="cooperation-list">
               <li class="cooperation-item">
                 <a class="cooperation-link link-with-icon" href="#">
@@ -464,7 +464,7 @@
             </ul>
           </section>
           <section class="copyrights copyrights-catalog">
-            <img class="copyright-logo" src="image\logo_htmlacademy.svg" width="93" height="27" alt="Логотип Академии">
+            <img class="copyright-logo" src="image/logo_htmlacademy.svg" width="93" height="27" alt="Логотип Академии">
             <p class="copyright-text">Сделано в <a class="copyright-link" href="https://htmlacademy.ru/">.html academy</a> © 2021</p>
             </section>
         </div>
